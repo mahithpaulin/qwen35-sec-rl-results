@@ -1,0 +1,234 @@
+{
+ "ok": true,
+ "checks": [
+  {
+   "name": "repo_split_disjoint",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "repo_15:vuln:CWE-22:functional_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': False}"
+  },
+  {
+   "name": "repo_15:vuln:CWE-22:oracle_patch",
+   "ok": true,
+   "detail": "{'apply_error': None, 'functional': True, 'security': True, 'timed_out': False, 'failed': [], 'runtime_s': 3.56}"
+  },
+  {
+   "name": "repo_15:vuln:CWE-22:security_fails_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': False}"
+  },
+  {
+   "name": "repo_15:vuln:CWE-22:oracle_grade",
+   "ok": true,
+   "detail": "1.0 []"
+  },
+  {
+   "name": "repo_15:safe:CWE-532:functional_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': True}"
+  },
+  {
+   "name": "repo_15:safe:CWE-532:safe_security_passes",
+   "ok": true,
+   "detail": "{'functional': True, 'security': True}"
+  },
+  {
+   "name": "repo_15:patched:CWE-22:functional_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': True}"
+  },
+  {
+   "name": "repo_15:patched:CWE-22:safe_security_passes",
+   "ok": true,
+   "detail": "{'functional': True, 'security': True}"
+  },
+  {
+   "name": "repo_15:multi:CWE-295:functional_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': False}"
+  },
+  {
+   "name": "repo_15:multi:CWE-295:oracle_patch",
+   "ok": true,
+   "detail": "{'apply_error': None, 'functional': True, 'security': True, 'timed_out': False, 'failed': [], 'runtime_s': 3.55}"
+  },
+  {
+   "name": "repo_15:multi:CWE-295:security_fails_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': False}"
+  },
+  {
+   "name": "repo_15:multi:CWE-295:oracle_grade",
+   "ok": true,
+   "detail": "1.0 []"
+  },
+  {
+   "name": "repo_16:vuln:CWE-79:functional_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': False}"
+  },
+  {
+   "name": "repo_16:vuln:CWE-79:oracle_patch",
+   "ok": true,
+   "detail": "{'apply_error': None, 'functional': True, 'security': True, 'timed_out': False, 'failed': [], 'runtime_s': 3.57}"
+  },
+  {
+   "name": "repo_16:vuln:CWE-79:security_fails_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': False}"
+  },
+  {
+   "name": "repo_16:vuln:CWE-79:oracle_grade",
+   "ok": true,
+   "detail": "1.0 []"
+  },
+  {
+   "name": "repo_16:safe:CWE-502:functional_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': True}"
+  },
+  {
+   "name": "repo_16:safe:CWE-502:safe_security_passes",
+   "ok": true,
+   "detail": "{'functional': True, 'security': True}"
+  },
+  {
+   "name": "repo_16:patched:CWE-79:functional_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': True}"
+  },
+  {
+   "name": "repo_16:patched:CWE-79:safe_security_passes",
+   "ok": true,
+   "detail": "{'functional': True, 'security': True}"
+  },
+  {
+   "name": "repo_16:multi:CWE-532:functional_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': False}"
+  },
+  {
+   "name": "repo_16:multi:CWE-532:oracle_patch",
+   "ok": true,
+   "detail": "{'apply_error': None, 'functional': True, 'security': True, 'timed_out': False, 'failed': [], 'runtime_s': 3.58}"
+  },
+  {
+   "name": "repo_16:multi:CWE-532:security_fails_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': False}"
+  },
+  {
+   "name": "repo_16:multi:CWE-532:oracle_grade",
+   "ok": true,
+   "detail": "1.0 []"
+  },
+  {
+   "name": "repo_17:vuln:CWE-89:functional_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': False}"
+  },
+  {
+   "name": "repo_17:vuln:CWE-89:oracle_patch",
+   "ok": true,
+   "detail": "{'apply_error': None, 'functional': True, 'security': True, 'timed_out': False, 'failed': [], 'runtime_s': 3.58}"
+  },
+  {
+   "name": "repo_17:vuln:CWE-89:security_fails_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': False}"
+  },
+  {
+   "name": "repo_17:vuln:CWE-89:oracle_grade",
+   "ok": true,
+   "detail": "1.0 []"
+  },
+  {
+   "name": "repo_17:safe:CWE-502:functional_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': True}"
+  },
+  {
+   "name": "repo_17:safe:CWE-502:safe_security_passes",
+   "ok": true,
+   "detail": "{'functional': True, 'security': True}"
+  },
+  {
+   "name": "repo_17:patched:CWE-89:functional_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': True}"
+  },
+  {
+   "name": "repo_17:patched:CWE-89:safe_security_passes",
+   "ok": true,
+   "detail": "{'functional': True, 'security': True}"
+  },
+  {
+   "name": "repo_17:multi:CWE-532:functional_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': False}"
+  },
+  {
+   "name": "repo_17:multi:CWE-532:oracle_patch",
+   "ok": true,
+   "detail": "{'apply_error': None, 'functional': True, 'security': True, 'timed_out': False, 'failed': [], 'runtime_s': 3.57}"
+  },
+  {
+   "name": "repo_17:multi:CWE-532:security_fails_unpatched",
+   "ok": true,
+   "detail": "{'functional': True, 'security': False}"
+  },
+  {
+   "name": "repo_17:multi:CWE-532:oracle_grade",
+   "ok": true,
+   "detail": "1.0 []"
+  },
+  {
+   "name": "empty_submission_low",
+   "ok": true,
+   "detail": "0.068"
+  },
+  {
+   "name": "flag_everything_low",
+   "ok": true,
+   "detail": "0.0"
+  },
+  {
+   "name": "fabricated_evidence_penalised",
+   "ok": true,
+   "detail": "0.388"
+  },
+  {
+   "name": "unverified_claim_penalised",
+   "ok": true,
+   "detail": "{'valid_submit': 0.02, 'detection': 0.12, 'localization': 0.22, 'cwe': 0.08, 'evidence': 0.08, 'doc': 0.05, 'tools': 0.04, 'patch_functional': 0.08, 'patch_security': 0.15, 'patch_target': 0.04, 'honesty': -0.15, 'false_positive_penalty': -0.0}"
+  },
+  {
+   "name": "read_rejects_escape",
+   "ok": true,
+   "detail": "{'error': \"file not in repository: '../../etc/passwd'\"}"
+  },
+  {
+   "name": "doc_retrieval",
+   "ok": true,
+   "detail": "[{'doc_id': 'CWE-89', 'title': 'SQL Injection', 'cwe': 'CWE-89', 'snippet': 'SQL injection occurs when untrusted input is concatenated into a query. Use parameterized queries with bound placeholders; never build SQL with f-strings, percent formatting, or string concatenation.', 'score': 27.096}]"
+  },
+  {
+   "name": "static_rules",
+   "ok": true,
+   "detail": "{'CMDI_SHELL', 'WEAK_MD5'}"
+  },
+  {
+   "name": "tests_immutable",
+   "ok": true,
+   "detail": "{'apply_error': 'old text must occur exactly once', 'functional': False, 'security': False, 'timed_out': False, 'failed': []}"
+  }
+ ],
+ "seconds": 111.9,
+ "bench_version": "secrl-bench-1.0.0",
+ "reward_version": "secrl-reward-1.0.0",
+ "docs_sha256": "7f2b3e18de6a84237636bf860e305ce879cc1076dbc864bd48ef6143609237c5"
+}

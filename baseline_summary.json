@@ -1,0 +1,62 @@
+{
+ "test": {
+  "n_tasks": 12,
+  "n_vuln": 6,
+  "n_safe": 6,
+  "file_precision": 0.75,
+  "file_recall": 1.0,
+  "file_f1": 0.8571,
+  "line_f1": 0.6154,
+  "task_success_rate": 0.25,
+  "task_success_ci95": [
+   0.0889,
+   0.5323
+  ],
+  "false_positive_rate": 0.3333,
+  "false_positive_ci95": [
+   0.0968,
+   0.7
+  ],
+  "evidence_accuracy": 0.8333,
+  "citation_accuracy": 0.6667,
+  "patch_apply_rate": 0.0,
+  "patch_functional_rate": 0.0,
+  "patch_security_rate": 0.0,
+  "tool_call_validity": 0.9038,
+  "avg_tool_calls": 3.417,
+  "mean_reward": 0.5591,
+  "wall_seconds": 235.6,
+  "peak_vram_gb": 5.17,
+  "peak_vram_reserved_gb": 5.26
+ },
+ "val": {
+  "n_tasks": 12,
+  "n_vuln": 6,
+  "n_safe": 6,
+  "file_precision": 0.5556,
+  "file_recall": 0.8333,
+  "file_f1": 0.6667,
+  "line_f1": 0.4444,
+  "task_success_rate": 0.25,
+  "task_success_ci95": [
+   0.0889,
+   0.5323
+  ],
+  "false_positive_rate": 0.5,
+  "false_positive_ci95": [
+   0.1876,
+   0.8124
+  ],
+  "evidence_accuracy": 0.3333,
+  "citation_accuracy": 0.3333,
+  "patch_apply_rate": 0.0,
+  "patch_functional_rate": 0.0,
+  "patch_security_rate": 0.0,
+  "tool_call_validity": 0.9412,
+  "avg_tool_calls": 3.25,
+  "mean_reward": 0.4513,
+  "wall_seconds": 242.5,
+  "peak_vram_gb": 5.18,
+  "peak_vram_reserved_gb": 5.26
+ }
+}

@@ -1,0 +1,206 @@
+[
+ {
+  "step": 4,
+  "metrics": {
+   "n_tasks": 12,
+   "n_vuln": 6,
+   "n_safe": 6,
+   "file_precision": 0.8333,
+   "file_recall": 0.8333,
+   "file_f1": 0.8333,
+   "line_f1": 0.4,
+   "task_success_rate": 0.5,
+   "task_success_ci95": [
+    0.2538,
+    0.7462
+   ],
+   "false_positive_rate": 0.0,
+   "false_positive_ci95": [
+    0.0,
+    0.3903
+   ],
+   "evidence_accuracy": 0.3333,
+   "citation_accuracy": 0.1667,
+   "patch_apply_rate": 0.0,
+   "patch_functional_rate": 0.0,
+   "patch_security_rate": 0.0,
+   "tool_call_validity": 1.0,
+   "avg_tool_calls": 3.0,
+   "mean_reward": 0.6071,
+   "wall_seconds": 201.8,
+   "peak_vram_gb": 5.47,
+   "peak_vram_reserved_gb": 9.75
+  },
+  "checkpoint": "/kaggle/working/qwen35-sec-rl/checkpoints/step_0004"
+ },
+ {
+  "step": 8,
+  "metrics": {
+   "n_tasks": 12,
+   "n_vuln": 6,
+   "n_safe": 6,
+   "file_precision": 0.8333,
+   "file_recall": 0.8333,
+   "file_f1": 0.8333,
+   "line_f1": 0.4,
+   "task_success_rate": 0.5,
+   "task_success_ci95": [
+    0.2538,
+    0.7462
+   ],
+   "false_positive_rate": 0.0,
+   "false_positive_ci95": [
+    0.0,
+    0.3903
+   ],
+   "evidence_accuracy": 0.3333,
+   "citation_accuracy": 0.1667,
+   "patch_apply_rate": 0.0,
+   "patch_functional_rate": 0.0,
+   "patch_security_rate": 0.0,
+   "tool_call_validity": 1.0,
+   "avg_tool_calls": 3.0,
+   "mean_reward": 0.6071,
+   "wall_seconds": 202.9,
+   "peak_vram_gb": 5.47,
+   "peak_vram_reserved_gb": 9.84
+  },
+  "checkpoint": "/kaggle/working/qwen35-sec-rl/checkpoints/step_0008"
+ },
+ {
+  "step": 12,
+  "metrics": {
+   "n_tasks": 12,
+   "n_vuln": 6,
+   "n_safe": 6,
+   "file_precision": 0.8333,
+   "file_recall": 0.8333,
+   "file_f1": 0.8333,
+   "line_f1": 0.6667,
+   "task_success_rate": 0.5,
+   "task_success_ci95": [
+    0.2538,
+    0.7462
+   ],
+   "false_positive_rate": 0.0,
+   "false_positive_ci95": [
+    0.0,
+    0.3903
+   ],
+   "evidence_accuracy": 0.6667,
+   "citation_accuracy": 0.1667,
+   "patch_apply_rate": 0.0,
+   "patch_functional_rate": 0.0,
+   "patch_security_rate": 0.0,
+   "tool_call_validity": 1.0,
+   "avg_tool_calls": 3.0,
+   "mean_reward": 0.6906,
+   "wall_seconds": 224.6,
+   "peak_vram_gb": 5.47,
+   "peak_vram_reserved_gb": 9.84
+  },
+  "checkpoint": "/kaggle/working/qwen35-sec-rl/checkpoints/step_0012"
+ },
+ {
+  "step": 16,
+  "metrics": {
+   "n_tasks": 12,
+   "n_vuln": 6,
+   "n_safe": 6,
+   "file_precision": 0.8333,
+   "file_recall": 0.8333,
+   "file_f1": 0.8333,
+   "line_f1": 0.5143,
+   "task_success_rate": 0.5,
+   "task_success_ci95": [
+    0.2538,
+    0.7462
+   ],
+   "false_positive_rate": 0.0,
+   "false_positive_ci95": [
+    0.0,
+    0.3903
+   ],
+   "evidence_accuracy": 0.3333,
+   "citation_accuracy": 0.1667,
+   "patch_apply_rate": 0.0,
+   "patch_functional_rate": 0.0,
+   "patch_security_rate": 0.0,
+   "tool_call_validity": 1.0,
+   "avg_tool_calls": 3.0,
+   "mean_reward": 0.6556,
+   "wall_seconds": 221.1,
+   "peak_vram_gb": 5.47,
+   "peak_vram_reserved_gb": 9.84
+  },
+  "checkpoint": "/kaggle/working/qwen35-sec-rl/checkpoints/step_0016"
+ },
+ {
+  "step": 20,
+  "metrics": {
+   "n_tasks": 12,
+   "n_vuln": 6,
+   "n_safe": 6,
+   "file_precision": 0.8333,
+   "file_recall": 0.8333,
+   "file_f1": 0.8333,
+   "line_f1": 0.5806,
+   "task_success_rate": 0.5,
+   "task_success_ci95": [
+    0.2538,
+    0.7462
+   ],
+   "false_positive_rate": 0.0,
+   "false_positive_ci95": [
+    0.0,
+    0.3903
+   ],
+   "evidence_accuracy": 0.5,
+   "citation_accuracy": 0.3333,
+   "patch_apply_rate": 0.0,
+   "patch_functional_rate": 0.0,
+   "patch_security_rate": 0.0,
+   "tool_call_validity": 1.0,
+   "avg_tool_calls": 3.0,
+   "mean_reward": 0.6814,
+   "wall_seconds": 220.4,
+   "peak_vram_gb": 5.47,
+   "peak_vram_reserved_gb": 9.84
+  },
+  "checkpoint": "/kaggle/working/qwen35-sec-rl/checkpoints/step_0020"
+ },
+ {
+  "step": 24,
+  "metrics": {
+   "n_tasks": 12,
+   "n_vuln": 6,
+   "n_safe": 6,
+   "file_precision": 1.0,
+   "file_recall": 0.8333,
+   "file_f1": 0.9091,
+   "line_f1": 0.5806,
+   "task_success_rate": 0.5,
+   "task_success_ci95": [
+    0.2538,
+    0.7462
+   ],
+   "false_positive_rate": 0.0,
+   "false_positive_ci95": [
+    0.0,
+    0.3903
+   ],
+   "evidence_accuracy": 0.5,
+   "citation_accuracy": 0.3333,
+   "patch_apply_rate": 0.0,
+   "patch_functional_rate": 0.0,
+   "patch_security_rate": 0.0,
+   "tool_call_validity": 1.0,
+   "avg_tool_calls": 3.0,
+   "mean_reward": 0.6898,
+   "wall_seconds": 214.9,
+   "peak_vram_gb": 5.47,
+   "peak_vram_reserved_gb": 10.51
+  },
+  "checkpoint": "/kaggle/working/qwen35-sec-rl/checkpoints/step_0024"
+ }
+]
